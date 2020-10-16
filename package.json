@@ -1,0 +1,42 @@
+{
+  "name": "middy-jsonapi",
+  "version": "1.0.0",
+  "description": "Parses the HTTP request and formats the HTTP response according to the JSONAPI protocol.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run rest:unit",
+    "test:unit": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dorpmaster/middy-jsonapi.git"
+  },
+  "keywords": [
+    "Lambda",
+    "Middleware",
+    "Serverless",
+    "Framework",
+    "AWS",
+    "AWS Lambda",
+    "Middy",
+    "HTTP",
+    "JSONAPI"
+  ],
+  "author": "Roman A. Shvetsov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dorpmaster/middy-jsonapi/issues"
+  },
+  "homepage": "https://github.com/Dorpmaster/middy-jsonapi#readme",
+  "dependencies": {
+    "http-errors": "^1.8.0",
+    "lodash": "^4.17.20"
+  },
+  "peerDependencies": {
+    "@middy/core": ">=1.0.0-alpha"
+  },
+  "devDependencies": {
+    "@middy/core": "^1.4.0",
+    "@types/aws-lambda": "^8.10.64"
+  }
+}
